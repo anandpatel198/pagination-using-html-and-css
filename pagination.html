@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;justify-content: center;
+            align-items: center;
+            padding: 100px;
+            /* background-image: linear-gradient(to right purple,yellow ); */
+            min-height: 100vh;
+            background-color:antiquewhite;
+           }
+
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 35px;
+            }
+        
+        section iframe{
+            width: 550px;
+            height:60vh ;
+
+           }
+
+        div{
+            border:3px solid rgb(1, 1, 21);
+            border-radius: 5px;
+            /* width: 20%; */
+            /* height:60%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            background-color: rgb(18, 2, 33);
+           }
+
+        div a{
+            background-color: rgb(127, 149, 104);
+            text-decoration:none;
+            /* border: 2px solid black; */
+
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: blue;
+            font-size: 15px;
+
+        }
+
+        div a:hover{
+            background-color: chartreuse;
+            color: black;
+        }
+    
+    </style>
+</head>
+<body>
+  <section>
+    <iframe name="myframe" frameborder="1"></iframe>
+  </section>
+
+<div>
+    <a href="#">&lt;&nbsp;&lt;&nbsp;&lt;&nbsp;&lt;</a>&nbsp;&nbsp;
+    <a href="button.html" target="myframe">&nbsp;&nbsp;1</a> &nbsp;&nbsp;&nbsp;
+    <a href="cal.html" target="myframe">2</a>&nbsp;&nbsp;&nbsp;
+    <a href="Resume.html" target="myframe">3</a>&nbsp;&nbsp;&nbsp;
+    <!-- <a href="pagination.html" target="myframe">4</a>&nbsp;&nbsp;&nbsp; -->
+
+    <a href="#">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;&gt;</a>
+</div> 
+</body>
+</html>
